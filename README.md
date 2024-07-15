@@ -1,4 +1,4 @@
-# 7days_of_code_3
+
 #7DaysOfCode Python desafio 3
 
 
@@ -12,6 +12,7 @@ Iniciar um projeto Django com o comando startproject e criar um app (aplicativo)
 Fazer as configurações necessárias para registro do app.
 Executar o projeto para que a página inicial do Django seja mostrada, conforme abaixo:
 
+
 O comando para iniciar um projeto no Django é:
 ```
 django-admin startproject <nome_do_projeto>.
@@ -22,3 +23,17 @@ Já, para criar o app (aplicação), você pode usar este comando:
 ```
 django-admin startapp <nome_do_app>
 ```
+
+Para executar, o server, faças as migrações:
+
+```
+python manage.py migrate
+```
+E depois execute:
+
+```
+python manage.py runserver
+```
+Server Django executando `http://127.0.0.1:8000/`
+
+![image/d_3.png](image/d_3.png)
